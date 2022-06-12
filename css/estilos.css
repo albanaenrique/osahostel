@@ -52,7 +52,12 @@ li{
     left: 30px;
 }
 .header{
-    background-color: red;
+    background: rgb(235,146,67);
+    background: -moz-linear-gradient(270deg, rgba(235,146,67,0.2721463585434174) 20%, rgba(231,225,44,0.7287289915966386) 50%, rgba(255,141,0,0.5634628851540616) 75%);
+    background: -webkit-linear-gradient(270deg, rgba(235,146,67,0.2721463585434174) 20%, rgba(231,225,44,0.7287289915966386) 50%, rgba(255,141,0,0.5634628851540616) 75%);
+    background: linear-gradient(270deg, rgba(235,146,67,0.2721463585434174) 20%, rgba(231,225,44,0.7287289915966386) 50%, rgba(255,141,0,0.5634628851540616) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eb9243",endColorstr="#ff8d00",GradientType=1);   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,12 +95,6 @@ li{
     font-family: 'Lato', sans-serif;
 }
  
-@media screen and (max-width 768px){
-    .habitacionescontenedor {
-        grid-template-columns: 1rm;
-    }
-    
-}
 
 
 
