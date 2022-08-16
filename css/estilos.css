@@ -123,7 +123,6 @@ li{
 }
 .logo {
     width: 70px;
-    position: absolute;
     top: 30px;
     left: 30px;
 }
@@ -155,12 +154,11 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    background-color: yellow;
+    background-color: beige;
 
 }
 .habitacionimagen {
-    width: 100%;
+    width: 80%;
 
 }
 .habitaciondescripcion {
