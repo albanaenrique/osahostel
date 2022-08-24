@@ -115,15 +115,15 @@ li {
     width: 80%;
 }
 
-.habitacionescontenedor { 
+.habitacionescontenedor .actividadescontenedor { 
     display: grid;
-    background-color: brown;
+    background-color: rgb(218, 236, 182);
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto auto auto;
     justify-items: $centrado;
     padding: 3rem 3rem;
 
-    .habitaciontitulo {
+    .habitaciontitulo .actividadestitulo {
         width: 100%;
         text-align: $centrado;
         display: flex;
@@ -132,11 +132,11 @@ li {
         background-color: beige;
     
     }
-    .habitacionimagen {
+    .habitacionimagen .actividadestitulo {
         width: 80%;
     
     }
-    .habitaciondescripcion {
+    .habitaciondescripcion .actividadescripcion {
         width: 100%;
         text-align: $centrado;
         display: flex; 
