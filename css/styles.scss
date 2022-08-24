@@ -114,8 +114,7 @@ li {
 .slide-top {
     width: 80%;
 }
-
-.habitacionescontenedor .actividadescontenedor { 
+.habitacionescontenedor { 
     display: grid;
     background-color: rgb(218, 236, 182);
     grid-template-columns: auto auto ;
@@ -123,7 +122,7 @@ li {
     justify-items: $centrado;
     padding: 3rem 3rem;
 
-    .habitaciontitulo .actividadestitulo {
+    .habitaciontitulo {
         width: 100%;
         text-align: $centrado;
         display: flex;
@@ -132,17 +131,48 @@ li {
         background-color: beige;
     
     }
-    .habitacionimagen .actividadestitulo {
+    .habitacionimagen {
         width: 80%;
-    
+        text-align: $centrado;
     }
-    .habitaciondescripcion .actividadescripcion {
+    .habitaciondescripcion {
         width: 100%;
         text-align: $centrado;
         display: flex; 
         background-color: beige;
         font-family: 'Lato', sans-serif;
     }    
+}
+
+.actividadescontenedor {
+    display: grid;
+    background-color: rgb(218, 236, 182);
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto;
+    justify-items: &centrado;
+    padding: 3rem 3rem;
+
+   .actividadestitulo {
+        width: 100%;
+        text-align: &$centrado;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: beige;
+   }
+
+   .actividadesimagen {
+        width: 80%;
+        text-align: $centrado;
+  
+  }
+  .actividadescripcion {
+       width: 100%;
+       text-align: &$centrado;
+       display: flex; 
+       background-color: beige;
+       font-family: 'Lato', sans-serif;
+  }
 }
 
 p {
@@ -152,6 +182,7 @@ p {
     letter-spacing: 1px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: $centrado;
 }
 
 @media (max-width: 768px) {

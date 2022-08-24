@@ -177,6 +177,37 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.actividadescontenedor { 
+  display: grid;
+  background-color: brown;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  padding: 3rem 3rem;
+   
+}
+.actividadestitulo {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+
+}
+.actividadesimagen {
+  width: 80%;
+
+}
+.actividadescripcion {
+  width: 100%;
+  text-align: center;
+  display: flex; 
+  background-color: beige;
+  font-family: 'Lato', sans-serif;
+}
+
 @media (max-width: 768px) {
   .nav {
       flex-wrap: wrap;

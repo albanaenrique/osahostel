@@ -93,7 +93,7 @@ li {
 
 .habitacionescontenedor {
   display: grid;
-  background-color: brown;
+  background-color: #daecb6;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
   justify-items: center;
@@ -106,10 +106,35 @@ li {
     justify-content: space-between;
     background-color: beige; }
   .habitacionescontenedor .habitacionimagen {
-    width: 80%; }
+    width: 80%;
+    text-align: center; }
   .habitacionescontenedor .habitaciondescripcion {
     width: 100%;
     text-align: center;
+    display: flex;
+    background-color: beige;
+    font-family: 'Lato', sans-serif; }
+
+.actividadescontenedor {
+  display: grid;
+  background-color: #daecb6;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-items: .actividadescontenedor centrado;
+  padding: 3rem 3rem; }
+  .actividadescontenedor .actividadestitulo {
+    width: 100%;
+    text-align: .actividadescontenedor .actividadestitulo center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige; }
+  .actividadescontenedor .actividadesimagen {
+    width: 80%;
+    text-align: center; }
+  .actividadescontenedor .actividadescripcion {
+    width: 100%;
+    text-align: .actividadescontenedor .actividadescripcion center;
     display: flex;
     background-color: beige;
     font-family: 'Lato', sans-serif; }
@@ -120,7 +145,8 @@ p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 1px;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
 
 @media (max-width: 768px) {
   .header {
