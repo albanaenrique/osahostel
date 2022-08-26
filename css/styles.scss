@@ -50,12 +50,14 @@ h1 {
         }    
     }
 }
-
-h2 {
+@mixin titulos {
     color: brown;
-    font-size:3rem;
-    font-family: 'Lato', sans-serif;
+    font-family:'Lato', sans-serif; 
     text-align: $centrado;
+}
+h2 {
+    @include titulos;
+    font-size:3rem;   
 }
 
 .scale-up-hor-center {
@@ -85,10 +87,8 @@ h2 {
 }
 
 h3 {
-    color: brown;
-    font-size:2rem;
-    font-family: 'Lato', sans-serif;
-    text-align: $centrado;  
+    @include titulos;
+    font-size:2rem;     
 }
 
 .botonespanel {
@@ -122,9 +122,12 @@ li {
     justify-items: $centrado;
     padding: 3rem 3rem;
 
-    .habitaciontitulo {
+    @mixin hab{
         width: 100%;
         text-align: $centrado;
+    }
+    .habitaciontitulo {
+        @include hab;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -136,8 +139,7 @@ li {
         text-align: $centrado;
     }
     .habitaciondescripcion {
-        width: 100%;
-        text-align: $centrado;
+        @include hab;
         display: flex; 
         background-color: beige;
         font-family: 'Lato', sans-serif;

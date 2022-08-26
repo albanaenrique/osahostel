@@ -41,9 +41,9 @@ h1 {
 
 h2 {
   color: brown;
-  font-size: 3rem;
   font-family: 'Lato', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 3rem; }
 
 .scale-up-hor-center {
   -webkit-animation: scale-up-hor-center 0.4s;
@@ -67,9 +67,9 @@ h2 {
 
 h3 {
   color: brown;
-  font-size: 2rem;
   font-family: 'Lato', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 .botonespanel {
   display: flex;
