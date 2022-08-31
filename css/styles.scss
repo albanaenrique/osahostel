@@ -114,6 +114,16 @@ li {
 .slide-top {
     width: 80%;
 }
+
+.piepagina {
+    width: 100%;
+    display: flex;
+    background-color: beige;
+    .navegables {
+        display: inline;
+    }
+}
+
 .habitacionescontenedor { 
     display: grid;
     background-color: rgb(218, 236, 182);
@@ -165,7 +175,7 @@ li {
         transition: all 0.30s;
 
         :hover{
-            transform: translateY( 15px);
+            transform: translateY( 10px);
             box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
         }
 

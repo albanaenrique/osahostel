@@ -91,6 +91,22 @@ li {
 .slide-top {
   width: 80%; }
 
+.piepagina {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #a7a74b;
+  display: flex; }
+  .piepagina .navegables {
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto auto; }
+  .piepagina .direccion {
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto auto; }
+
 .habitacionescontenedor {
   display: grid;
   background-color: #daecb6;
